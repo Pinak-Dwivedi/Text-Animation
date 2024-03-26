@@ -8,10 +8,10 @@
 }
 
 body {
-  --bg-color: rgb(48, 0, 120);
+  --bg-color: rgb(49, 0, 122);
   --text-size: 3rem;
   --line-height: 1;
-  --text-color: tomato;
+  --text-color: rgb(255, 99, 71);
 
   line-height: var(--line-height);
   color: var(--text-color);
@@ -43,6 +43,7 @@ body {
   transform: translateX(-50%);
   transition: color, transform, border, 300ms ease-in-out;
   transform-origin: left;
+  user-select: none;
 }
 
 .text1 {
